@@ -1,5 +1,5 @@
 ---
-- name: Update and upgrade apt packages
+- name: 
   hosts: all 
   tasks:
     - name: Update packages with yum
