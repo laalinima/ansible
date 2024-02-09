@@ -3,7 +3,7 @@
   hosts: all 
   tasks:
     - name: Display Hostname
-      command: hostname -m
+      command: hostname
       register: result
     - debug:
         var: result
