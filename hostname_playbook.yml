@@ -1,1 +1,9 @@
-
+---
+- 
+  hosts: all 
+  tasks:
+    - name: Display Hostname
+      command: hostname -m
+      register: result
+    - debug:
+        var: result
